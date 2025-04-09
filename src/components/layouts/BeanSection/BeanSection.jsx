@@ -97,7 +97,7 @@ const BeanSection = () => {
           className="max-w-28 transform transition-all hover:rotate-180"
         />
       </div>
-      <div className="col-span-1 text-center lg:col-span-2 order-3 lg:order-none bg-[url('images/bluebrush.png')] bg-no-repeat bg-fill bg-center py-4 w-full">
+      <div className="col-span-1 text-center lg:col-span-2 order-3 lg:order-none bg-[url('/images/bluebrush.png')] bg-no-repeat bg-fill bg-center py-4 w-full">
         <h1 className="text-xl pl-4 w-full font-semibold text-gray-200">
           Mau kopi yang halus dan aromatik? Pilih Arabika. <br />
           Lebih suka yang kuat dan berani? Robusta jawabannya. <br />
