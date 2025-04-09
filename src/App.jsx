@@ -1,8 +1,9 @@
-import { FaRightLong } from "react-icons/fa6";
-import Navbar from "./components/layouts/Navbar/Navbar.jsx";
-import BeanSection from "./components/layouts/BeanSection/BeanSection.jsx";
-import SubHeroSection from "./components/layouts/SubHero/SubHeroSection.jsx";
-import Footer from "./components/layouts/Footer/Footer.jsx";
+import Navbar from "./components/layouts/Home/Navbar/Navbar.jsx";
+import BeanSection from "./components/layouts/Home/BeanSection/BeanSection.jsx";
+import SubHeroSection from "./components/layouts/Home/SubHero/SubHeroSection.jsx";
+import Footer from "./components/layouts/Home/Footer/Footer.jsx";
+
+function Home() {}
 
 function App() {
   return (
