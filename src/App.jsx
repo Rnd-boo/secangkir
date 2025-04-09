@@ -8,7 +8,7 @@ function App() {
   return (
     <main className="">
       <Navbar />
-      <section className="h-screen bg-[url('images/herosection.png')] bg-no-repeat bg-cover">
+      <section className="h-screen bg-[url('/images/herosection.png')] bg-no-repeat bg-cover">
         <div className="mx-auto grid max-w-screen-2xl px-2 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
           <div className="mr-auto my-28 lg:col-span-7">
             <h1 className="mb-1 max-w-2xl text-5xl font-extrabold leading-none tracking-tight md:text-8xl xl:text-9xl dark:text-white">

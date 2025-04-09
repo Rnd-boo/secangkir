@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div class="mx-auto w-full px-1 pb-1">
-      <div class="mx-auto rounded-[161px_8px_100px_62px] bg-[url('public/images/background.png')] bg-center p-10 text-[#2A3663]">
+      <div class="mx-auto rounded-[161px_8px_100px_62px] bg-[url('/images/background.png')] bg-center p-10 text-[#2A3663]">
         <div class="flex justify-center w-full">
           <div class="p-8">
             <svg
