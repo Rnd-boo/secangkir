@@ -1,6 +1,8 @@
+import RotatingImage from "../../../Elements/ImageScroll";
+
 const BeanSection = () => {
   return (
-    <div className="my-16 px-4 py-2 mx-auto grid w-full items-center sm:grid-cols-1 lg:max-w-7xl lg:grid-cols-2 lg:gap-y-14">
+    <div className="my-16 px-4 py-2 mx-auto grid w-full items-center sm:grid-cols-1 lg:max-w-7xl lg:grid-cols-2 lg:gap-y-24">
       <div className="order-first lg:col-span-1 pr-8 -mb-10">
         <h1 className="text-lg font-bold lg:text-2xl">
           Di balik setiap tegukan kopi, ada karakter unik dari biji kopinya.
@@ -47,13 +49,14 @@ const BeanSection = () => {
           </div>
         </div>
       </div>
-      <div className="-order-1 ml-10 flex h-64 w-full items-center justify-center lg:order-none">
-        <img
-          src="https://www.espresso-international.com/media/image/a4/cc/f0/Arabica-beans-big.jpg"
-          alt=""
-          className="transform transition-all hover:rotate-180 lg:max-w-28"
-        />
-      </div>
+      <RotatingImage
+        order="-order-1"
+        src="https://www.espresso-international.com/media/image/a4/cc/f0/Arabica-beans-big.jpg"
+        inputTranslateRange={[0, 0.5, 0.7]}
+        outputTranslateRange={["-200px", "0px", "200px"]}
+        inputOpacityRange={[0, 0.3, 0.5, 0.6]}
+        outputOpacityRange={[0, 1, 1, 0]}
+      />
       <div className="w-full content-center order-2 lg:order-none">
         <div className="relative rounded-2xl bg-greencoffee p-4 pb-8">
           <div className="ml-4 flex">
@@ -90,13 +93,14 @@ const BeanSection = () => {
           </div>
         </div>
       </div>
-      <div className="ml-10 flex h-64 w-full items-center justify-center order-1 lg:order-none">
-        <img
-          src="https://www.espresso-international.com/media/image/24/3f/79/Robusta-bean.jpg"
-          alt=""
-          className="max-w-28 transform transition-all hover:rotate-180"
-        />
-      </div>
+      <RotatingImage
+        order="order-1"
+        src="https://www.espresso-international.com/media/image/24/3f/79/Robusta-bean.jpg"
+        inputTranslateRange={[0.2, 0.5, 1]}
+        outputTranslateRange={["-250px", "0px", "170px"]}
+        inputOpacityRange={[0.3, 0.4, 0.5, 1]}
+        outputOpacityRange={[0, 0.3, 1, 0]}
+      />
       <div className="col-span-1 text-center lg:col-span-2 order-3 lg:order-none bg-[url('/images/bluebrush.png')] bg-no-repeat bg-fill bg-center py-4 w-full">
         <h1 className="text-xl pl-4 w-full font-semibold text-gray-200">
           Mau kopi yang halus dan aromatik? Pilih Arabika. <br />

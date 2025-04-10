@@ -1,3 +1,3 @@
-import ImageScroll from "./ImageScroll";
+import RotatingImage from "./ImageScroll";
 
-export default ImageScroll;
+export default RotatingImage;
