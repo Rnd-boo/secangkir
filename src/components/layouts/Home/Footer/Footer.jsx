@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
     <div class="mx-auto w-full px-1 pb-1">
-      <div class="mx-auto rounded-[161px_8px_100px_62px] bg-[url('/images/background.png')] bg-center p-10 text-[#2A3663]">
+      <div class="mx-auto rounded-[8px_8px_100px_100px] bg-[url('/images/background.png')] bg-center p-10 text-[#2A3663]">
         <div class="flex justify-center w-full">
-          <div class="p-8">
+          <div class="lg:p-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -16,17 +16,17 @@ const Footer = () => {
                 clip-rule="evenodd"
               />
             </svg>
-            <h1 class="text-2xl font-extrabold text-white">
+            <h1 class="lg:text-2xl text-xl font-extrabold text-white">
               Sampai jumpa di cangkir berikutnya.
             </h1>
-            <p class="font-semibold text-white mb-4">
+            <p class="text-white mb-4 text-sm lg:text-base text-start pr-4 lg:pr-0">
               Karena setiap momen, pantas dirayakan dengan secangkir kopi yang
               tepat.
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="inline-block ml-2 text-[#2A3663] justify-end size-9"
+                class="lg:inline-block lg:ml-2 text-[#2A3663] justify-end size-9"
               >
                 <path
                   fill-rule="evenodd"
@@ -37,7 +37,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div class="grid grid-cols-4 justify-items-center">
+        <div class="grid grid-cols-2 gap-y-5 text-sm lg:text-base lg:grid-cols-4 justify-items-center">
           <h2>&copy; 2025 Secangkir.</h2>
           <h2>Kopi yang tahu arah.</h2>
           <a href="" className="hover:underline transition-all">

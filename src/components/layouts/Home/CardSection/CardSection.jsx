@@ -1,7 +1,7 @@
 const CardSection = () => {
   return (
-    <div className="mx-auto w-4/5 lg:p-8 -mt-16 z-10 relative ">
-      <div className="grid grid-cols-1 gap-x-8 lg:grid-cols-4 lg:gap-16 z-20">
+    <div className="mx-auto 2xl:w-4/5 lg:p-8 -mt-16 z-10 relative px-4 ">
+      <div className="grid grid-cols-1 gap-y-4 lg:gap-y-0 gap-x-8 lg:grid-cols-4 2xl:gap-16 z-20">
         <div className="group flex flex-col items-center justify-center rounded-xl p-4 py-10 text-center shadow-2xl transition-all hover:scale-105 lg:py-16 bg-white">
           <svg
             width="55"
@@ -27,7 +27,9 @@ const CardSection = () => {
             />
             <path className="lines" d="M9 6c1 2 1 4 0 6s-1 4 0 6" />
           </svg>
-          <h1 className="mb-4 mt-6 font-bold lg:text-xl">Biji Pilihan</h1>
+          <h1 className="mb-4 mt-6 font-bold lg:text-lg 2xl:text-xl">
+            Biji Pilihan
+          </h1>
           <p className="h-12 text-sm lg:text-base">
             Dipetik dari perkebunan terbaik, diproses dengan standar premium.
           </p>
@@ -63,7 +65,9 @@ const CardSection = () => {
             <path className="steam" d="M44 30 C42 24, 48 18, 45 10" />
             <path className="steam" d="M56 30 C54 24, 58 18, 55 10" />
           </svg>
-          <h1 className="mb-4 mt-6 font-bold lg:text-xl">Segar & Harum</h1>
+          <h1 className="mb-4 mt-6 font-bold lg:text-lg 2xl:text-xl">
+            Segar & Harum
+          </h1>
           <p className="h-12 text-sm lg:text-base">
             Kami hanya menyajikan kopi yang baru diproses, tanpa bahan
             tambahan..
@@ -112,7 +116,7 @@ const CardSection = () => {
             />
             <path className="vein" d="M58 34 C62 30, 63 26, 61 22" />
           </svg>
-          <h1 className="mb-4 mt-6 font-bold lg:text-xl">
+          <h1 className="mb-4 mt-6 font-bold lg:text-lg 2xl:text-xl">
             Langsung dari Petani
           </h1>
           <p className="h-12 text-sm lg:text-base">
@@ -150,7 +154,9 @@ const CardSection = () => {
             <line x1="10" y1="34" x2="28" y2="34" className="stroke" />
             <line x1="10" y1="38" x2="26" y2="38" className="stroke" />
           </svg>
-          <h1 className="mb-4 mt-6 font-bold lg:text-xl">Gratis Ongkir</h1>
+          <h1 className="mb-4 mt-6 font-bold lg:text-lg 2xl:text-xl">
+            Gratis Ongkir
+          </h1>
           <p className="h-12 text-sm lg:text-base">
             Gratis pengiriman untuk seluruh wilayah{" "}
             <span className="text-red-700">Indonesia</span>.

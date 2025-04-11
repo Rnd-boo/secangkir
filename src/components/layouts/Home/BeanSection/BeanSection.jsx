@@ -101,8 +101,8 @@ const BeanSection = () => {
         inputOpacityRange={[0.3, 0.4, 0.5, 1]}
         outputOpacityRange={[0, 0.3, 1, 0]}
       />
-      <div className="col-span-1 text-center lg:col-span-2 order-3 lg:order-none bg-[url('/images/bluebrush.png')] bg-no-repeat bg-fill bg-center py-4 w-full">
-        <h1 className="text-xl pl-4 w-full font-semibold text-gray-200">
+      <div className="col-span-1 text-center lg:col-span-2 order-3 lg:order-none bg-[url('/images/bluebrush.png')] bg-no-repeat my-10 lg:my-2 bg-fill bg-center py-4 w-full">
+        <h1 className="text-sm lg:text-xl pl-4 w-full font-semibold text-gray-200">
           Mau kopi yang halus dan aromatik? Pilih Arabika. <br />
           Lebih suka yang kuat dan berani? Robusta jawabannya. <br />
           <span className="">At</span>au... kenapa nggak coba dua-duanya dan
