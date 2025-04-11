@@ -30,7 +30,7 @@ const Card = ({ card }) => {
       key={card.id}
       src={card.url}
       alt={`Card ${card.id}`}
-      className="h-[200px] w-[200px] lg:h-[350px] lg:w-[350px]  2xl:h-[500px] 2xl:w-[500px] border-2 object-cover transition-transform duration-300"
+      className="h-[200px] w-[200px] lg:h-[310px] lg:w-[320px] 2xl:h-[450px] 2xl:w-[480px] border-2 object-cover transition-transform duration-300"
     />
   );
 };
@@ -40,7 +40,7 @@ const HorizontalScrollCarousel = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["2%", "-15%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["0", "-15%"]);
 
   return (
     <section ref={targetRef} className="relative">

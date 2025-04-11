@@ -1,4 +1,4 @@
-import ContactButton from "../../../Elements/Button";
+import ContactButton from "../../../Elements/Button/ContactButton";
 
 const Navbar = () => {
   return (
